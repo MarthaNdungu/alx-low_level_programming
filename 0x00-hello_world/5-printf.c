@@ -1,14 +1,12 @@
 #include <stdio.h>
-
 /**
- * main - The main function to print proper grammer but looks ke a piece of art
+ * main - Print a C program using printf
  *
- * Return ; 0 when succefull
- */
-
+ * Return ; 0
+*/
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,/n");
+	printf("with proper grammar,but the outcome is a piece of art,\n");
 	return (0);
 }
 
