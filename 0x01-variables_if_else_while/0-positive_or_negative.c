@@ -2,17 +2,14 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
-
-/* betty style doc for function main goes there */
 /**
- * main - This is my main function
+ * main - entry point of the program
  *
- * Return; always 0
- */
-
+ * Return: always 0(success)
+*/
 int main(void)
 {
-	int n;
+	int n:
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -23,6 +20,6 @@ int main(void)
 		printf("%d is zero", n);
 	else if (n < 0)
 		printf("%d is negative", n);
-	printf("\n");
+	printf("/n")
 	return (0);
 }
