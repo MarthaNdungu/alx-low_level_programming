@@ -1,0 +1,14 @@
+nt n
+      |  ^~~
+1-last_digit.c:15:7: error: expected ‘;’ before ‘int’
+   15 |  int n
+      |       ^
+      |       ;
+   16 |  int m,
+      |  ~~~   
+1-last_digit.c:18:8: error: expected declaration specifiers or ‘...’ before ‘time’
+   18 |  srand(time(0));
+      |        ^~~~
+1-last_digit.c:19:2: error: ‘n’ undeclared (first use in this function)
+   19 |  n = rand() - RAND_MAX / 2;
+      |  ^:
