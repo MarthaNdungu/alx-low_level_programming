@@ -1,14 +1,13 @@
 #include "main.h"
 
-/**
- * jack_bauer - prints every minute of the day of Jack Bauer
- * Return: Always 0
- */
 
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-
-  void jack_bauer('void')
+    jack_bauer();
     return (0);
-
 }
