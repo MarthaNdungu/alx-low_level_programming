@@ -1,0 +1,4 @@
+
+urs.c:13: WARNING: Multiple instructions on a single line is forbidden
+8-24_hours.c:13: WARNING: space prohibited between function name and open parenthesis '('
+total: 0 errors, 3 warnings, 31 lines checked
