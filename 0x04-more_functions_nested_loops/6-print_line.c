@@ -2,8 +2,9 @@
 #include <stdio.h>
 /**
  * print_line - print straight line
+ * Description: the number of times the character
  *@:No of times
- *Return:always 0
+ *Return:void
 */
 void print_line(int n)
 {
